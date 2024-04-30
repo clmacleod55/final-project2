@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('C:/Users/Colin/Downloads/team_stats_2003_2023.csv')
+df = pd.read_csv('team_stats_2003_2023.csv')
 
 # Sidebar
 st.sidebar.title('Filter Data')
